@@ -4,6 +4,8 @@
 // 🌞 (U+1F31E SUN WITH FACE) — a smiling face on a bright sun. Warm at
 // first glance, universal, chosen rather than the default smiley, and
 // stranger-safe: no hearts, hug, kiss or flirtation. 1 codepoint, 4 bytes.
+// Verified locally: entry.txt is exactly these 4 bytes, no newline —
+// gate is 1–8 characters, so this passes with room to spare.
 import { writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
